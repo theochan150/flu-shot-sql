@@ -6,7 +6,7 @@ JOIN patients AS pat
   ON e.patient = pat.id
 WHERE start BETWEEN '2020-01-01 00:00' AND '2022-12-31 23:59'
   AND pat.deathdate IS NULL
-  AND EXTRACT(EPOCH FROM age('2022-12-31', pat.birthdate)) / 2592000 >= 6;
+  AND EXTRACT(EPOCH FROM age('2022-12-31', pat.birthdate)) / 2592000 >= 6;  --calculates age into seconds, converts it into months 
 
 -- Temp table for flu shots in 2022
 CREATE TEMP TABLE flu_shot_2022 AS

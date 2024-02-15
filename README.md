@@ -1,4 +1,4 @@
-# README for Flu Shot Dashboard SQL Query
+#Flu Shot Dashboard SQL Query
 
 ## Overview
 This README documents the SQL queries used for generating the data for the Flu Shot Dashboard. The dashboard visualizes flu vaccination coverage by various demographics and over time. The queries provided here are part of the data processing pipeline that feeds into the visualization tool.

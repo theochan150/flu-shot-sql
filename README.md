@@ -33,6 +33,7 @@ The Flu Shot Dashboard presents the following visualizations:
 - `Flu Shots by Race`: Comparison of flu vaccination rates among different racial groups.
 - `Flu Shot by County`: The number of flu shots administered across different counties.
 - `Running Sum of Flu Shots`: A cumulative graph showing the total number of flu shots administered over the months of 2022.
+- https://public.tableau.com/views/immunization_dash/Dashboard1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link
 
 ## Dependencies
 - PostgreSQL or compatible database

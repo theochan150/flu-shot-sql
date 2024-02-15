@@ -1,5 +1,3 @@
-# flu-shot-sql 
-```markdown
 # README for Flu Shot Dashboard SQL Query
 
 ## Overview
@@ -39,4 +37,4 @@ The Flu Shot Dashboard presents the following visualizations:
 ## Dependencies
 - PostgreSQL or compatible database
 - Access to the relevant healthcare database with `patients`, `encounters`, and `immunizations` tables.
-```
+
